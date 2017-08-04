@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+Route::any('/adminInterface',['uses'=>'adminController@adminInterface','as'=>'adminInterface']);
+
+Route::any('/',['uses'=>'homeController@homepage','as'=>'homepage']);
