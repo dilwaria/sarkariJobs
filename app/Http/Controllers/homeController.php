@@ -12,6 +12,20 @@ class homeController extends Controller
         $params= [];
         return view('home.homepage',$params);
     }
+
+
+    // aboutus
+     public function aboutus(){
+        $params= [];
+        return view('home.aboutus',$params);
+    }
+    
+    // privacy
+    public function privacy(){
+        $params= [];
+        return view('home.privacy',$params);
+    }
+       
             
         
 }

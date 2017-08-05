@@ -19,3 +19,7 @@
 Route::any('/adminInterface',['uses'=>'adminController@adminInterface','as'=>'adminInterface']);
 
 Route::any('/',['uses'=>'homeController@homepage','as'=>'homepage']);
+
+Route::any('/about-us',['uses'=>'homeController@aboutus','as'=>'aboutus']);
+
+Route::any('/privacy',['uses'=>'homeController@privacy','as'=>'privacy']);
