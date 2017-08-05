@@ -19,44 +19,20 @@
 									
 								</li>
 								<li class="dropdown">
-									<a data-toggle="dropdown" class="dropdown-toggle" href="#">Central Govt Jobs <span class="fa fa-angle-down"></span></a>
-									<div class="dropdown-menu animated fadeInDown">
-										<div class="dropdown-inner">
-											<ul class="list-unstyled">
-												<li>
-													<a href="#">Central Govt Jobs 1</a>
-												</li>
-												<li>
-													<a href="#">Central Govt Jobs 2</a>
-												</li>
-												<li>
-													<a href="#">Central Govt Jobs 3</a>
-												</li>
-												<li>
-													<a href="#">Central Govt Jobs 4</a>
-												</li>
-												
-											</ul>
-										</div>
-									</div>
+									<a data-toggle="dropdown" class="dropdown-toggle" href="#">Central Govt Jobs</a>
 								</li>
+
+								
 								<li class="dropdown">
 									<a data-toggle="dropdown" class="dropdown-toggle" href="#">State Govt Jobs <span class="fa fa-angle-down"></span></a>
 									<div class="dropdown-menu animated fadeInDown">
 										<div class="dropdown-inner">
 											<ul class="list-unstyled">
+												 @foreach($stateList as $list)
 												<li>
-													<a href="#">State Govt Jobs 1</a>
+													<a href="#">{{$list['statename']}}</a>
 												</li>
-												<li>
-													<a href="#">State Govt Jobs 2</a>
-												</li>
-												<li>
-													<a href="#">State Govt Jobs 3</a>
-												</li>
-												<li>
-													<a href="#">State Govt Jobs 4</a>
-												</li>
+												 @endforeach
 											</ul>
 										</div>
 									</div>
