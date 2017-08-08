@@ -35,15 +35,48 @@
 					<div class="">
 						
 						<div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
-      <div class="panel">
+      
+               <div class="panel">
         <div class="panel-heading" role="tab" id="headingOne">
           <h4 class="panel-title">
         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          StateList
+          Grade Pay Classification
         </a>
       </h4>
         </div>
         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+           <ul class="list-unstyled">          
+                         <li> <a href="#">6600 </a></li>  
+                        <li> <a href="#">5400 </a></li>
+                        <li> <a href="#">4800 </a></li>
+                        <li> <a href="#">4600 </a></li>
+                        <li> <a href="#">4200 </a></li>
+                        <li> <a href="#">4200 </a></li>
+                        <li> <a href="#">4200 </a></li>
+                        <li> <a href="#">2800 </a></li>
+                        <li> <a href="#">2400 </a></li>
+                        <li> <a href="#">2000 </a></li>
+                        <li> <a href="#">1900 </a></li>
+                        <li> <a href="#">1800 </a></li>
+
+
+                      </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          StateList
+        </a>
+      </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
           <div class="panel-body">
            <ul class="list-unstyled">
             @foreach($stateList as $list)
@@ -61,12 +94,12 @@
       <div class="panel">
         <div class="panel-heading" role="tab" id="headingTwo">
           <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Education Qualification
         </a>
       </h4>
         </div>
-        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
           <div class="panel-body">
             <ul class="list-unstyled">
           
@@ -85,12 +118,12 @@
       <div class="panel">
         <div class="panel-heading" role="tab" id="headingThree">
           <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Job Categories
         </a>
       </h4>
         </div>
-        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
           <div class="panel-body">
            <ul class="list-unstyled">
           
@@ -105,6 +138,8 @@
         </div>
       </div>
       <!-- end of panel -->
+
+
 
       
 

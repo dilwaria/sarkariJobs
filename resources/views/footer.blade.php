@@ -131,3 +131,4 @@
 			<p>Copyright &#169; 2017. All Rights Reserved</p>
 		</div>
 	</div>
+<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5989aca30bf9cd001279350c&product=sticky-share-buttons"></script>
