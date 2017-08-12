@@ -1151,10 +1151,10 @@ header .button-login .btn-primary{
 	padding:29px 11px;
 }
 .product-box .matter h1{
-	font-size:16px;
+	font-size:18px;
 	font-weight:600;
 	color:#000;
-	margin:0 0 7px 0;
+	margin:8px 1px 7px 0;
 	line-height: 18px;
 }
 .product-box .matter ul {
@@ -1260,9 +1260,9 @@ header .button-login .btn-primary{
 	margin:0 0 8px 0;
 }
 .product-list .product-box .btn-info{
-	margin-right:30px;
-	width: 136px;
-	height:35px;
+	margin-right:20px;
+	width: 90px;
+	height:31px;
 	padding:11px;
 }
 .product-list .product-box .image{
@@ -5059,7 +5059,7 @@ footer .form .btn-default:hover, footer .form .btn-default:active:hover {
 }
 
 .panel-heading {
-  background-color: #ff9d12;
+  background-color: #eee;
   border-radius: 0;
   border: none;
   color: #fff;
@@ -5068,7 +5068,7 @@ footer .form .btn-default:hover, footer .form .btn-default:active:hover {
 
 .panel-title a {
   display: block;
-  color: #fff;
+  color: #101010;
   padding: 15px;
   position: relative;
   font-size: 16px;
@@ -5128,6 +5128,7 @@ footer .form .btn-default:hover, footer .form .btn-default:active:hover {
           transform: rotate(180deg);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  color:#ff9900;
 }
 
 #accordion .panel-heading.active a:before {
