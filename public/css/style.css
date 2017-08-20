@@ -214,6 +214,8 @@ header .button-login .btn-primary{
 }
 #menu .dropdown-menu {
 	border:none;
+	width: 800px;
+	left: -80%;
 	margin: 0;
 	background:#ff9900;
 	border-radius:0px;
@@ -224,6 +226,8 @@ header .button-login .btn-primary{
 }
 #menu .dropdown-menu li{
 	padding:5px 13px;
+	width: 200px;
+	float: left;
 }
 #menu .dropdown-menu a{
 	color:#fff;
@@ -4484,6 +4488,8 @@ footer .form .btn-default:hover, footer .form .btn-default:active:hover {
 	#menu .dropdown-menu {
 		background: #000;
 		margin-bottom: 10px;
+		width: 100%;
+		left: 0;
 	}
 	header .button-login {
 		float: none !important;
