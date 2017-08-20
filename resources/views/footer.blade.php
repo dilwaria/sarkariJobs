@@ -53,7 +53,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-3 col-md-3 col-xs-12 matter">
-					<img src="images/foot-logo.png"  class="img-responsive footerlogochange" alt="foot-logo" title="foot-logo" />
+					<img src="images/logo.png"  class="img-responsive footerlogochange" alt="foot-logo" title="foot-logo" />
 					<p>Aliquam hendrit rutrum iaculis nullam ondimentum mal uada velit beum donec sit amet tristique erosam amet risus mollis malesuada quis quis nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultr amet tristique erosam.</p>
 						
 				</div>
@@ -128,7 +128,7 @@
 	</footer>
 	<div class="powered">
 		<div class="container">
-			<p>Copyright &#169; 2017. All Rights Reserved</p>
+			<p>Copyright &#169; 2017. The Sarkari Jobs. All Rights Reserved</p>
 		</div>
 	</div>
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5989aca30bf9cd001279350c&product=sticky-share-buttons"></script>

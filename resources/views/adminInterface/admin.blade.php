@@ -7,78 +7,78 @@
 </head>
 	<body>
 		
-<h2>Post you blog</h2>
+<h2>Post you JOB</h2>
 
-<form id="blogAdmin" method="post" action="/blog/saveBlog" style="border:1px solid #ccc">
+<form id="jobProfileAdmin" method="post" action="/jobProfile/savejobProfile" style="border:1px solid #ccc">
   <div class="container">
-      @if ($blog)
-         <input type="hidden" name="blogID" value="{!! $blog->id !!}"> 
+      @if ($jobProfile)
+         <input type="hidden" name="jobProfileID" value="{!! $jobProfile->id !!}"> 
       @endif
-    <label><b>Blog Content</b></label><br>
+    <label><b>jobProfile Content</b></label><br>
         Please convert to HTML before insertion. <a rel="nofollow" target="_blank" href="http://www.textfixer.com/html/convert-word-to-html.php"> Open</a>
     <br><br>
-    <textarea name="blog[blogContent]">@if ($blog){!! $blog->blogContent !!}@endif</textarea><br><br>
+    <textarea name="jobProfile[jobProfileContent]">@if ($jobProfile){!! $jobProfile->jobProfileContent !!}@endif</textarea><br><br>
 
     <label><b>Slug</b></label>
-    <input type="text" name="blog[slug]" 
-        @if ($blog)
-            value="{!! $blog->slug !!}"
+    <input type="text" name="jobProfile[slug]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->slug !!}"
         @endif
     required>
 
     <label><b>User ID</b></label>
-    <input type="text" name="blog[creatorID]" 
-        @if ($blog)
-            value="{!! $blog->creatorID !!}"
+    <input type="text" name="jobProfile[creatorID]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->creatorID !!}"
         @endif
     required>
 
     <label><b>Priority</b></label>
-    <input type="text" name="blog[priority]" 
-        @if ($blog)
-            value="{!! $blog->priority !!}"
+    <input type="text" name="jobProfile[priority]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->priority !!}"
         @endif
     required>
 
     <label><b>Keywords</b></label>
-    <input type="text" name="blog[seoMetakeywords]" 
-        @if ($blog)
-            value="{!! $blog->seoMetakeywords !!}"
+    <input type="text" name="jobProfile[seoMetakeywords]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->seoMetakeywords !!}"
         @endif
     required>  
 
     <label><b>Title(to display)</b></label>
      
-    <input type="text" name="blog[title]" 
-        @if ($blog)
-            value="{!! $blog->title !!}"
+    <input type="text" name="jobProfile[title]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->title !!}"
         @endif
     required><br><br>
 
     <label><b>seoTitle</b></label>
-    <input type="text" name="blog[seoTitle]" 
-        @if ($blog)
-            value="{!! $blog->seoTitle !!}"
+    <input type="text" name="jobProfile[seoTitle]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->seoTitle !!}"
         @endif
     required>
 
     <label><b>seoDescription</b></label>
-    <input type="text" name="blog[seoDescription]" 
-        @if ($blog)
-            value="{!! $blog->seoDescription !!}"
+    <input type="text" name="jobProfile[seoDescription]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->seoDescription !!}"
         @endif
     required>
     
     <label><b>imagePath(if any)</b></label>
-    <input type="text" name="blog[imgPath]" 
-        @if ($blog)
-            value="{!! $blog->imgPath !!}"
+    <input type="text" name="jobProfile[imgPath]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->imgPath !!}"
         @endif
     required>
 
     <!-- <span class="tagGrp">
         <label><b>Tags(Please press enter)</b></label>
-        @if ($blog)
+        @if ($jobProfile)
             @foreach ($tagArr as $tags)
                 <input class="tagList" list="tagDataList" type="text" name="tags[][tagName]" value="{{$tags->tagName}}" autocomplete="off" >
             @endforeach
@@ -153,7 +153,7 @@
         this.value=this.value.toLowerCase();
     });
 
-     $('#blogAdmin').on('keyup keypress', function(e) {
+     $('#jobProfileAdmin').on('keyup keypress', function(e) {
           var keyCode = e.keyCode || e.which;
           if (keyCode === 13) { 
             e.preventDefault();

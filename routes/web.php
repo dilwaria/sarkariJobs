@@ -18,6 +18,8 @@
 
 Route::any('/adminInterface',['uses'=>'adminController@adminInterface','as'=>'adminInterface']);
 
+Route::post('/blog/saveBlog',['uses'=>'BlogController@saveBlog']);
+
 Route::any('/',['uses'=>'homeController@homepage','as'=>'homepage']);
 
 Route::any('/about-us',['uses'=>'homeController@aboutus','as'=>'aboutus']);

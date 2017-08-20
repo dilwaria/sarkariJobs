@@ -72,9 +72,7 @@ input, textarea{
 	background:none;
 	margin:0 !important;
 }
-.paddleft{
-	padding-left:0px;
-}
+
 .padd0{
 	padding:0px;
 }
@@ -155,7 +153,7 @@ input, textarea{
 [ Header / header ]
 ---------------------*/
 #logo {
-	margin: 12px 0 12px;
+	margin: 5px 0 5px;
 }
 header{
 	background:#fff;
@@ -1186,10 +1184,10 @@ header .button-login .btn-primary{
 	margin:0;
 }
 .product-box .btn-info{
-	border:none;
-	border-radius:0px;
-	background:#333333;
-	color:#fff;
+	border:1px solid #ff9900;
+	border-radius:5px;
+	background:#fff;
+	color:#ff9900;
 	font-size:14px;
 	font-weight:400;
 	margin-right: -2px;
@@ -1199,6 +1197,7 @@ header .button-login .btn-primary{
 }
 .product-box .btn-info:hover{
 	background:#ff9900;
+	color: #fff;
 }
 .product-box .image{
 	position:relative;
@@ -1249,7 +1248,7 @@ header .button-login .btn-primary{
 }
 .product-list .product-box .matter{
 	border-bottom:1px solid #e1e1e1;
-	padding:5px 12px;
+	padding:0 0 10px 10px;
 }
 .product-list .product-box .matter ul {
 	margin:0px 0 5px;
@@ -1263,7 +1262,7 @@ header .button-login .btn-primary{
 	margin-right:20px;
 	width: 90px;
 	height:31px;
-	padding:11px;
+	padding:10px;
 }
 .product-list .product-box .image{
 	float:left;
@@ -1672,8 +1671,7 @@ footer {
 	padding:30px 0 20px ;
 }
 footer h5 {
-	font-family: 'Libre Baskerville', serif;
-	font-size:18px;
+	font-size:20px;
 	font-weight:bold;
 	color:#ff9900;
 	margin:0 0 10px;
@@ -1691,8 +1689,7 @@ footer h6 i{
 }
 footer h6 span{
 	font-weight:600;
-	font-size:24px;
-}
+	font-size:22px;}
 footer p {
 	font-size:14px;
 	font-weight:300;
@@ -2707,9 +2704,8 @@ footer .form .btn-default:hover, footer .form .btn-default:active:hover {
 	line-height: 18px;
 }
 #jobdetail  .content h1{
-	font-family: 'Libre Baskerville', serif;
-	font-size:18px;
-	font-weight:bold;
+	
+	font-size:25px;
 	color:#000;
 	margin:0 0 15px;
 }

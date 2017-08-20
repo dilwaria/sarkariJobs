@@ -78,7 +78,7 @@
 										<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Chandigarh</a>
 									</li>
 									<li>
-										<a href="#"><i class="fa fa-money" aria-hidden="true"></i> 25,000 Per.month</a>
+										<a href="#"><i class="fa fa-rupee" aria-hidden="true"></i> 25,000 Per.month</a>
 									</li>
 									<li>
 										<a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 45 minutes ago</a>
@@ -104,7 +104,7 @@
 										<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Chandigarh</a>
 									</li>
 									<li>
-										<a href="#"><i class="fa fa-money" aria-hidden="true"></i> 25,000 Per.month</a>
+										<a href="#"><i class="fa fa-rupee" aria-hidden="true"></i> 25,000 Per.month</a>
 									</li>
 									<li>
 										<a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 45 minutes ago</a>
@@ -130,7 +130,7 @@
 										<a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Chandigarh</a>
 									</li>
 									<li>
-										<a href="#"><i class="fa fa-money" aria-hidden="true"></i> 25,000 Per.month</a>
+										<a href="#"><i class="fa fa-rupee" aria-hidden="true"></i> 25,000 Per.month</a>
 									</li>
 									<li>
 										<a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 45 minutes ago</a>

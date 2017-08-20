@@ -87,8 +87,8 @@
 			</div>
 			<div class="row">
 				 
-				
-				<div class="col-md-6 col-sm-6 col-xs-12 paddleft content">
+				<div id="jobdetail" class="job_detail_list">
+				<div class="col-md-9 col-sm-9 col-xs-12 paddleft content">
 					<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
 					<ul class="list-inline">
 						<li>
@@ -107,6 +107,7 @@
 					</ul>
 					
 					<button type="button" class="btn btn-info" onclick="">APPLY THIS JOB</button>
+				</div>
 				</div>
 				
 			    @include('home.rightsidebar')

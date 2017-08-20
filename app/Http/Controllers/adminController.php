@@ -12,14 +12,14 @@ class adminController extends Controller
     public function adminInterface(){
         // $blogID= Request::input('blogID');
         $password = 'fuckjob';
-        $blog=null;
+        $jobProfile=null;
         // $blog=$this->blogService->getBlog($blogID);
         if($password== 'fuckjob'){
             // $tagArr=NULL;
             // if($blog){
             //     $tagArr= $blog->tags;
             // }
-            return view('adminInterface.admin',['blog'=>$blog]);
+            return view('adminInterface.admin',['jobProfile'=>$jobProfile]);
         }else{
             abort(404);
             
