@@ -14,10 +14,11 @@
       @if ($jobProfile)
          <input type="hidden" name="jobProfileID" value="{!! $jobProfile->id !!}"> 
       @endif
-    <label><b>jobProfile Content</b></label><br>
-        Please convert to HTML before insertion. <a rel="nofollow" target="_blank" href="http://www.textfixer.com/html/convert-word-to-html.php"> Open</a>
-    <br><br>
-    <textarea name="jobProfile[jobProfileContent]">@if ($jobProfile){!! $jobProfile->jobProfileContent !!}@endif</textarea><br><br>
+
+    <label><b>jobProfile Content</b></label><br> 
+    <textarea class="ckeditor" name="jobProfile[jobProfileContent]">@if ($jobProfile){!! $jobProfile->jobProfileContent !!}@endif</textarea>
+    <br>
+
 
     <label><b>Slug</b></label>
     <input type="text" name="jobProfile[slug]" 
@@ -25,54 +26,125 @@
             value="{!! $jobProfile->slug !!}"
         @endif
     required>
+  <br>
 
-    <label><b>User ID</b></label>
-    <input type="text" name="jobProfile[creatorID]" 
-        @if ($jobProfile)
-            value="{!! $jobProfile->creatorID !!}"
-        @endif
-    required>
-
-    <label><b>Priority</b></label>
-    <input type="text" name="jobProfile[priority]" 
-        @if ($jobProfile)
-            value="{!! $jobProfile->priority !!}"
-        @endif
-    required>
-
-    <label><b>Keywords</b></label>
-    <input type="text" name="jobProfile[seoMetakeywords]" 
-        @if ($jobProfile)
-            value="{!! $jobProfile->seoMetakeywords !!}"
-        @endif
-    required>  
-
-    <label><b>Title(to display)</b></label>
+  <label><b>Title(to display)</b></label>
      
-    <input type="text" name="jobProfile[title]" 
+    <input type="text" name="jobProfile[jobTitle]" 
         @if ($jobProfile)
-            value="{!! $jobProfile->title !!}"
+            value="{!! $jobProfile->jobTitle !!}"
         @endif
-    required><br><br>
+    required><br>
+
+
+     <label><b>organisation  Name</b></label>
+     
+    <input type="text" name="jobProfile[organisationName]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->organisationName !!}"
+        @endif
+    required><br>
+
+     <label><b>total Vacancies</b></label>
+     
+    <input type="text" name="jobProfile[totalVacancies]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->totalVacancies !!}"
+        @endif
+    required><br>
+
+    <label><b>pay scale</b></label>
+     
+    <input type="text" name="jobProfile[payscale]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->payscale !!}"
+        @endif
+    required><br>
+
+
+    <label><b>company Url</b></label>
+     
+    <input type="text" name="jobProfile[companyUrl]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->companyUrl !!}"
+        @endif
+    required><br>
+    
+    <label><b>redirect Url</b></label>
+     
+    <input type="text" name="jobProfile[redirectUrl]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->redirectUrl !!}"
+        @endif
+    required><br>
+    
+    <label><b>Adevrtisement number</b></label>
+     
+    <input type="text" name="jobProfile[advNumber]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->advNumber !!}"
+        @endif
+    required><br>
+
 
     <label><b>seoTitle</b></label>
     <input type="text" name="jobProfile[seoTitle]" 
         @if ($jobProfile)
             value="{!! $jobProfile->seoTitle !!}"
         @endif
-    required>
+    required> <br>
+
+
 
     <label><b>seoDescription</b></label>
     <input type="text" name="jobProfile[seoDescription]" 
         @if ($jobProfile)
             value="{!! $jobProfile->seoDescription !!}"
         @endif
-    required>
-    
-    <label><b>imagePath(if any)</b></label>
-    <input type="text" name="jobProfile[imgPath]" 
+    required><br>
+
+    <label><b> SEO Keywords</b></label>
+    <input type="text" name="jobProfile[seoMetaTags]" 
         @if ($jobProfile)
-            value="{!! $jobProfile->imgPath !!}"
+            value="{!! $jobProfile->seoMetaTags !!}"
+        @endif
+    required>  <br>
+
+     <label><b>Priority</b></label>
+    <input type="text" name="jobProfile[priority]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->priority !!}"
+        @endif
+    required><br>
+
+     <label><b>Active</b></label>
+    <input type="text" name="jobProfile[active]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->active !!}"
+        @endif
+    required> <br>
+
+     <label><b>All India</b></label>
+    <input type="text" name="jobProfile[allIndia]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->allIndia !!}"
+        @endif
+    required> <br>
+
+
+
+    <label><b>End Date for filling</b></label>
+    <input type="text" name="jobProfile[endDate]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->endDate !!}"
+        @endif
+    required>
+
+   
+    <label><b>imagePath(if any)</b></label>
+    <input type="text" name="jobProfile[jobImgPath]" 
+        @if ($jobProfile)
+            value="{!! $jobProfile->jobImgPath !!}"
         @endif
     required>
 
